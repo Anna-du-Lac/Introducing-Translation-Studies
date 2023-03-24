@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login</title>
+	<link rel="stylesheet" href="loginbox.css" type="text/css">
+</head>
+<script>
+		function pw(){
+			alert("write it down next time!")
+		}
+		</script>
+<body style="background-image:url(images/loginbgcopy.jpg)">
+	 <image src="https://seis.bfsu.edu.cn/images/logozw.png" alt="SEIS"></image>
+	<h1 style="color:#FCFFFF;position:absolute;Margin-top:140px;Margin-left:160px"><em>Introducing Translation Studies</em></h1>
+	
+<div id="loginbox">
+	<p id="logintitle">Let's get you started</p>
+  <input style="position:absolute;width:150px;height:15px;float:left" id="usernamebox" class="enterbox">
+	<p class="loginboxlabel" id="username">User Name</p><!--感觉不是很简洁，还是对浮动属性不太有把握，之前设置为left发现并不能对齐。尽管改为none之后再通过margin可以实现排版，但其实并不知道为什么-->
+<input style="width:150px;height:15px;float:left" id="passwordbox" class="enterbox">
+	<p class="loginboxlabel" style="margin-top:10px" id="password">Password</p>
+	<button onclick="{location.href='mainpage.htm'}"style="float:left;cursor:pointer">login</button>
+		<p ID="forgotpw" style="position:absolute;font-size:15px;text-decoration: underline;margin-top:0;float:left;margin-left:150px;cursor:pointer" onclick="pw()">Forgot password?</p><!--cursor属性居然随便加就行-->
+		</div>
+		<script>
+		function pw(){
+			alert("Write it down next time!")
+		}
+		</script>
+				
+</body>
+</html>

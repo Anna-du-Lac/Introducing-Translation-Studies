@@ -1,0 +1,32 @@
+/* CSS Document */
+.navi{
+	float:left;
+	width:19%;
+	text-align:center;
+	background-color:#0B6CB8;
+	border:solid 2px lightgray;
+}
+.nt{
+	color:white;
+	font-weight:600;
+	font-size:18px;
+}
+
+#n1{}
+#n2{background-color:darkred}
+#n3{background-color:#81BC06}
+#n4{background-color:#FFBA08}
+#n5{background-color:gray}
+
+h1{
+	text-align: center;
+	color:#0B6CB8;
+	margin-top:60px;
+}
+
+#mainbody{
+	font-family: 'Times New Roman', Cambria, 'Hoefler Text', 'Liberation Serif', Times,  'serif';
+	font-size:18px;
+}
+
+

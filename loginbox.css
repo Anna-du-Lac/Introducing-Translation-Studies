@@ -1,0 +1,61 @@
+/* CSS Document */
+#loginbox{
+	
+		width: 290px;
+		height:180px;
+		border:2px dotted #ffff;
+	position:absolute;
+	top:50%;left:50%; 
+	margin-top:-60px; 
+	margin-left:-140px;
+}
+.enterbox{
+	background-color: lightcyan;
+		margin-left:20px
+}
+p{font-family:"Times New Roman", "Helvetica Neue", Cambria, "Hoefler Text", "Liberation Serif", Times,  "serif"Arial, "sans-serif"}
+button{
+	background-color:#0000;
+	border:3px double #FCFFFF;
+		color: white;
+	width:100px;
+		margin-left:30px;
+	font-weight:800
+	
+}
+
+.loginboxlabel{
+	height:20px;
+	float:none;
+	margin-left:190px;
+	font-size:14px;
+		margin-top:10px;		
+}
+#usernamebox{
+	margin-top:1px
+}
+
+#username{
+	font-feature-settings: normal;
+	font-weight:1000;
+	color:#FCFFFF;
+}
+	#password{
+	font-feature-settings: normal;
+	font-weight:1000;
+	color:#FCFFFF;
+			
+}
+
+#forgotpw{
+	font-feature-settings: normal;
+	font-weight:1000;
+	color:#FCFFFF;		
+}
+#logintitle{
+	font-feature-settings: normal;
+	font-weight:1000;
+	color:#FCFFFF;		
+	margin-left:60px;
+	font-size:20px;
+}
