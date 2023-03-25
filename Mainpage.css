@@ -1,8 +1,17 @@
 /* CSS Document */
+html,body{
+	height:100%
+}
+html{
+	display:table;
+	margin:auto
+}
 body{
 	justify-content: center;
 	align-content: center;
-	min-width:1380px
+	width:1280px;
+	display:table-cell;
+	vertical-align: middle
 }
 .bookcover{
 	height: 495px;
@@ -91,29 +100,28 @@ body{
 	height: 495px;
 	background-color:antiquewhite;
 	text-align: center;
-	paddinig:20px;
 	margin:1%;
 	line-height:495px;
 	font-family: "Times New Roman";
-	Font-size: 30px;
+	Font-size: 100%;
 	font-weight: 700;
 	cursor:pointer;
 }
 
 #b1{
-	width:1080px;
-	float:left;
+	width:48%;
+	float:right;
 	background-color: darkred;
 	color:white;
-	margin:0;
-	margin-left:40px
-	
+	margin-left:40px;
+	margin-top:0px;
 }
 #b2{background-color: #81BC06;
 	color:white;
 }
 #b3{
-	background-color:#FFBA08
+	background-color:#FFBA08;
+	float:right;
 	
 }
 
